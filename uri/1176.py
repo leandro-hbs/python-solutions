@@ -4,7 +4,6 @@ def fib(n):
     vetor.append(1)
     for i in range(2,n+1,1):
         vetor.append(vetor[i-1] + vetor[i-2])
-    print(vetor)
     return vetor[n]
 
 n = int (input())
