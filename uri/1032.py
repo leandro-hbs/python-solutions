@@ -17,3 +17,4 @@ while True:
         i += 1
         mortos.pop(pivor)
     print(mortos[0])
+    
