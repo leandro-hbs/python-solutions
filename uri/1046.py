@@ -1,7 +1,5 @@
-x, y = map(int, input().split())
+i, f = list(map(int,input().split()))
 
-if (x < y):
-    print('O JOGO DUROU {} HORA(S)'.format(y-x))
-else:
-    z = 24 - x
-    print('O JOGO DUROU {} HORA(S)'.format(z+y))
+if i >= f:
+    f = f+24
+print('O JOGO DUROU {} HORA(S)'.format(f-i))
